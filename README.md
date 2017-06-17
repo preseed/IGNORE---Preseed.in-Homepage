@@ -1,1 +1,1 @@
-Repository for preseed.in on branch gh-pages
+Repository for preseed.in is on branch gh-pages
