@@ -179,6 +179,10 @@ ul.links
 .navbar-custom .nav li.active a:hover {
     color: #fff;
 }
+.menu_img {
+    padding-top: 10px;
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
@@ -194,5 +198,13 @@ ul.links
         padding: 0;
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
+    }
+}
+@media(max-width:767px) {
+    .menu_img {
+        padding-left: 10px;
+    }
+    .logo {
+        padding-top: 10px;
     }
 }
