@@ -183,6 +183,10 @@ ul.links
     padding-top: 10px;
 }
 
+.page-scroll {
+    font-size: 14px;
+}
+
 @media(min-width:768px) {
     .navbar-custom {
         padding: 20px 0;
