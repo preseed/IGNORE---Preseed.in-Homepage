@@ -203,6 +203,9 @@ ul.links
         border-bottom: 1px solid rgba(255,255,255,.3);
         background: #000;
     }
+        #nav-modified {
+            margin-left: 3%;
+    }
 }
 @media(max-width:767px) {
     .menu_img {
