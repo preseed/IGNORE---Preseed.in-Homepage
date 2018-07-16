@@ -20,7 +20,7 @@ body {
 }
 .logo img {
   display: block;
-  margin: 15vh auto;
+  margin: 20vh auto;
 }
 blockquote {
   border-left: 0;
@@ -28,7 +28,7 @@ blockquote {
 }
 blockquote.quote {
   line-height: normal !important;
-  max-width: 60vw;
+  max-width: 80vw;
 }
 blockquote.headline {
   color: #ffffff;
@@ -173,10 +173,11 @@ ul.links {
 }
 .menu_img {
   padding-top: 10px;
+  width: 100px;
 }
 
 .page-scroll {
-  font-size: 10px;
+  font-size: 11px;
 }
 
 @media (min-width: 768px) {
@@ -203,15 +204,8 @@ ul.links {
   .menu_img {
     padding-left: 10px;
   }
-  .logo {
-    padding-top: 10px;
-  }
 }
 
-.logo {
-  padding-top: 30px;
-}
-
-.font-m {
-  font-size: medium;
+.font-l {
+  font-size: large;
 }
