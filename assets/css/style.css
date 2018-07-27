@@ -204,8 +204,22 @@ ul.links {
   .menu_img {
     padding-left: 10px;
   }
+  .sm-links {
+    float: right;
+    position: relative !important;
+  }
+}
 }
 
 .font-l {
   font-size: large;
+}
+
+.sm-links {
+  padding: 10px;
+  right: 0;
+  top: 0;
+}
+.sm-links {
+    position: absolute;
 }
