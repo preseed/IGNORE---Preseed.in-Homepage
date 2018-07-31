@@ -207,6 +207,7 @@ ul.links {
   .sm-links {
     float: right;
     position: relative !important;
+    padding-top: 13px !important;
   }
 }
 }
@@ -219,7 +220,5 @@ ul.links {
   padding: 10px;
   right: 0;
   top: 0;
-}
-.sm-links {
-    position: absolute;
+  position: absolute;
 }
