@@ -64,9 +64,6 @@
 				<a href="https://twitter.com/thepreseed" target="_blank" title="">
 					<i class="fa fa-fw fa-twitter fa-lg"></i>
 				</a>
-				<a href="https://www.behance.net/4consult " target="_blank" title="">
-					<i class="fa fa-fw fa-behance-square fa-lg"></i>
-				</a>
 			</div>
 		</div>
 		<div class="container">
@@ -123,19 +120,9 @@
 		<img src="assets/images/favicon_preseed.png">
 	</div>
 	<div class="col-lg-10 col-md-10 col-xs-12 col-centered">
-		<!-- SoundCloud -->
-		<div class="col-centered">
-			<div class="soundcloud">
-				<iframe id="soundcloud_widget" width="100%" height="166" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/269322758&amp;color=353c44&hide_related=true&visual=true&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
-			</div>
-			<div class="space-10"></div>
-			<div id="highlighted-text" style="display: none;"></div>
-		</div>
 		<div class="space-20"></div>
 		<blockquote class="headline headline_extra">We are a startup advisory company that does things which others won't and can't. In business terms it means, solving problems
 			others won't dare solve; for giving freedom to people may not be in the interest of other businesses.</blockquote>
-		<blockquote class="headline headline_extra">We are building Preseed’s
-			<a href="http://preseeded.preseed.in/" style="color:yellow;text-decoration:underline;" target="_blank">Preseeded</a> to give freedom to people to pursue their loftiest, unchained visions. </blockquote>
 		<center>
 			<blockquote class="font-l quote headline">“I journeyed into Preseed in 2014 to empower those with a will to do something out of the ordinary - by often encouraging
 				them to drop out of their colleges or jobs to pursue their idea - if I felt I could raise their intensity to face what
@@ -148,10 +135,6 @@
 					<a href="https://about.me/nishchalkesarwani" target="_blank" style="color:pink;text-decoration:underline">Nishchal Kesarwani</a>, the first learner & teacher at Preseed.</p>
 			</blockquote>
 		</center>
-		<blockquote class="headline headline_extra">Everything else, by virtue of the above, is our
-			<a href="http://culture.preseed.in/" style="color:pink;text-decoration:underline" target="_blank">culture</a> that enables you to understand your own business from a new stand point. If you are a startup looking for
-			our advice, the above line is important for you, before you become a part of our culture, our thought.
-		</blockquote>
 	</div>
 	<footer class="footer">
 		<div class="col-md-8 col-xs-8 col-centered footer-content">
@@ -175,45 +158,6 @@
 	</footer>
 	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
 	 crossorigin="anonymous">			  
-	</script>
-	<script src="https://w.soundcloud.com/player/api.js"></script>
-	<script>
-		$(document).ready(function () {
-			var widget = SC.Widget(document.getElementById('soundcloud_widget'));
-			widget.bind(SC.Widget.Events.READY, function () {
-			});
-			var intervalID = setInterval(function () {
-				widget.getPosition(callback);
-			}, 1);
-			function callback(data) {
-				var time = data / 100;
-				time = Math.floor(time);
-
-				if (time == 1) {
-					document.getElementById("highlighted-text").style.display = "";
-					document.getElementById("highlighted-text").innerHTML = "The juices out of earth";
-				}
-				if (time == 315) {
-					document.getElementById("highlighted-text").innerHTML = "strive to keep humanity on earth, healthy, wise and thriving";
-				}
-				if (time == 380) {
-					document.getElementById("highlighted-text").innerHTML = "Liberation of our fellow beings from structures, boundaries and meanings created by generations before us.";
-				}
-				if (time == 640) {
-					document.getElementById("highlighted-text").innerHTML = "among all who come in contact with it";
-				}
-				if (time == 671) {
-					document.getElementById("highlighted-text").innerHTML = "we shape into becoming startups with such men and women";
-				}
-				if (time == 710) {
-					document.getElementById("highlighted-text").innerHTML = "<a href=\"http://culture.preseed.in\">culture.Preseed.in</a>";
-				}
-				if (time == 754) {
-					document.getElementById("highlighted-text").innerHTML = "I am your new lover.";
-					setTimeout(function () { document.getElementById("highlighted-text").innerHTML = "We have extraordinary minds. <a href='http://apply.preseed.in'>Join us</a> if you do too."; }, 3000);
-				}
-			}
-		});
 	</script>
 	<script>
 		(function (i, s, o, g, r, a, m) {
