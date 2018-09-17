@@ -138,6 +138,21 @@ ul.links {
   margin: 0 auto;
 }
 
+#we_inspire_h {
+  margin:150px auto 20px;
+  text-align: center; 
+  color: #fff;
+}
+.sub_quote {
+  color:#fff;
+  text-shadow: 1px 1px 1px #2B2B2B;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 180%;
+  font-size: 1.1em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /*Navigation*/
 .navbar-custom {
   margin-bottom: 0;
@@ -238,6 +253,12 @@ ul.links {
     float: right;
     position: relative !important;
     padding-top: 13px !important;
+  }
+  #we_inspire_h {
+    margin:90px auto 20px;
+  }
+  .logo img{
+    margin: 10vh auto 20vh;
   }
 }
 }
