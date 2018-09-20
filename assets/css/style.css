@@ -21,13 +21,18 @@
   );
   /*background-color: #000;*/
   background: url(../images/1.png) no-repeat;
-  background-attachment: scroll;
+  background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
+}
+@media only screen and (max-device-width: 768px) {
+    .intro {
+        background-attachment: scroll;
+    }
 }
 #second_body {
   background-image: -ms-linear-gradient(top, #353c44 0%, #23252b 7000%);
