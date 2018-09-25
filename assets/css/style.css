@@ -22,6 +22,7 @@
   /*background-color: #000;*/
   background: url(../images/1.png) no-repeat;
   background-attachment: fixed;
+  position: relative;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
