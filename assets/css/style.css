@@ -30,6 +30,11 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+@media only screen and (max-device-width: 768px) {
+    .intro {
+        background-attachment: scroll;
+    }
+}
 #second_body {
   background-image: -ms-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -moz-linear-gradient(top, #353c44 0%, #23252b 7000%);
