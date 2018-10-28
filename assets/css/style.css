@@ -279,6 +279,9 @@ ul.links {
   top: 0;
   position: absolute;
 }
+.color_text {
+  color: #fff;
+}
 /*teaser-text*/
     .teaser{width:100%;padding:0;margin:0;background-attachment:fixed;background-repeat:no-repeat; border-top:5px solid rgba(0,0,0,0.2);border-bottom:5px solid rgba(0,0,0,0.2);color:#fff;}
     .teaser.fixed{}
