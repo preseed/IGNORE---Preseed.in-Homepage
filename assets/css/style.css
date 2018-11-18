@@ -282,6 +282,48 @@ ul.links {
 .color_text {
   color: #fff;
 }
+
+/*Startup c0ver image*/
+.sheep_cover {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../images/sheep_bg.jpg) no-repeat;
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@media only screen and (max-device-width: 768px) {
+    .sheep_cover {
+        background-attachment: scroll;
+    }
+    .sheep-text {
+      font-size: 14px !important;
+      top: 70px !important;
+    }
+}
+@media(min-width:768px) {
+    .sheep_cover {
+        height: 100%;
+        padding-top: 24%;
+        padding-bottom: 24%;
+    }
+}
+.sheep-text {
+    font-size: 26px;
+    position: absolute; 
+    top: 200px; 
+    left: 0; 
+    width: 100%; 
+}
 /*teaser-text*/
     .teaser{width:100%;padding:0;margin:0;background-attachment:fixed;background-repeat:no-repeat; border-top:5px solid rgba(0,0,0,0.2);border-bottom:5px solid rgba(0,0,0,0.2);color:#fff;}
     .teaser.fixed{}
