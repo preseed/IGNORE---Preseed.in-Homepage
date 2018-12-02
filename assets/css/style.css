@@ -315,6 +315,11 @@ ul.links {
       padding-right: 10px;
 
     }
+     #image_ecell{
+
+    height: 50px;
+    width: 100px;
+}
 }
 @media(min-width:768px) {
     .sheep_cover {
