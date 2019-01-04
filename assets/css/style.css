@@ -328,9 +328,9 @@ ul.links {
         padding-bottom: 24%;
     }
     .span6 {
-    display:inline-block !important;
-    width: 48.71%;
-  }
+      padding-left: 10px;
+      padding-right: 10px;
+    }
 }
 .sheep-text {
     font-size: 26px;
