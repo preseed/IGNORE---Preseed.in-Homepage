@@ -120,7 +120,10 @@
 				<img src="assets/images/favicon_preseed.png">
 			</div>
 			<!-- <div style="text-align: center;color:#fff;padding-bottom: 5%;" id="caption"><h4 class="sub_quote">Sign up on our web platform <a style="color:#FFD700;" href="https://app.preseed.in/" target="_blank">Preseed App</a> to have us help you with your idea. (Coming soon)</h4></div> -->
-			<div style="text-align: center;color:#fff;padding-bottom: 5%;" id="caption"><h4 class="sub_quote">we ADVICE & CONNECT you with the right set of people vis-à-vis <a href="https://yoga.preseed.in/" target="_blank" style="color:#FFD700;"> Preseed Yoga</a> - <a href="https://yoga.preseed.in/" target="_blank"> <img id="image_yoga" src="assets/images/preseed_yoga.png" alt="ecell_logo" width="90" height="150"></a></h4></div>
+			<div style="text-align: center;color:#fff;padding-bottom: 5%;" id="caption"><h4 class="sub_quote">we ADVICE & CONNECT entrepreneurs with the right set of people vis-à-vis <a href="https://yoga.preseed.in/" target="_blank" style="color:#FFD700;"> Preseed Yoga</a> - <a href="https://yoga.preseed.in/" target="_blank"> <img id="image_yoga" src="assets/images/preseed_yoga.png" alt="ecell_logo" width="50" height="100"></a></h4></div>
+		<div class="header_heading_div">
+            <h3 class="header_we_are" align="center"><a id="cover_weare" style="color:#FFD700;" href="#footer_home"> <b>WE</b> <span>ARE</span></a> </h3>
+          </div>
       </div>
     </div>
   </header>
@@ -311,11 +314,11 @@
           </center>
             </div>
 		</div>
-	<footer class="footer" id="home_bg">
+	<footer class="footer" id="footer_home">
 		<div class="footer_heading_div">
             <h3 class="footer_heading" align="center"><b>WE</b> <span>ARE</span> </h3>
           </div>
-          <h6 align="center" class="color_text" style="width:90%;max-width:800px;display:block;margin:auto;font-family: 'Open Sans', sans-serif;font-weight: bold;font-size: 24px;">A bunch of believers on a mission to empower those who have the will to do something <br><b>OUT OF THE ORDINARY</b></h6>
+          <h6 align="center" class="color_text" style="width:90%;max-width:800px;display:block;margin:auto;font-family: 'Open Sans', sans-serif;font-weight: bold;font-size: 24px;">A bunch of believers on a mission to empower anyone with a will to do something <br><b>OUT OF THE ORDINARY</b></h6>
 		<div class="col-md-8 col-xs-8 col-centered footer-content">
 			<div style="text-align: center;padding: 15px;color: #fff;">
 				<span><strong>Contact us:  <a style="color:#FFD700;" href="mailto:love@preseed.in" target="_blank"> love@preseed.in</a></strong></span><br><br>
@@ -326,7 +329,7 @@
 			<ul class="links">
 				<!-- <li><a href="http://preseeded.preseed.in" target="_blank">Preseeded</a></li> -->
 				<li>
-					<a style="color:#FFD700;" href="http://preseeded.preseed.in/" target="_blank">Preseeded</a>
+					<a style="color:#FFD700;font-size: 24px;" href="http://preseeded.preseed.in/" target="_blank"><b>Preseeded</b></a>
 				</li>
 				<!-- <li>&middot;</li>
 				<li>
@@ -355,7 +358,16 @@
 
 		ga('create', 'UA-45882697-3', 'auto');
 		ga('send', 'pageview');
-
+		$( document ).ready(function() {
+		// Smooth scrolling
+		$("#cover_weare").click(function(e) {
+		    e.preventDefault();
+		    var section = $(this).attr("href");
+		    $("html, body").animate({
+		        scrollTop: $(section).offset().top
+		    });
+		});
+	});
 	</script>
 	<script src="assets/js/bootstrap.min.js"></script>
 	<script src="assets/js/grayscale.js"></script>

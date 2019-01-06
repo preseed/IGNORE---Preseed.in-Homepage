@@ -355,7 +355,7 @@ ul.links {
 
 }
 /*footer*/
-#home_bg {
+#footer_home {
   background: url(../images/footer_bg.jpeg);
 }
 .footer_heading {
@@ -366,6 +366,14 @@ ul.links {
     font-family: 'Open Sans', sans-serif;
     color: #fff !important;
     font-size: 85px;
+    line-height: 70px;
+    text-align: center;
+}
+.header_we_are {
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #FFD700 !important;
+    font-size: 75px;
     line-height: 70px;
     text-align: center;
 }
