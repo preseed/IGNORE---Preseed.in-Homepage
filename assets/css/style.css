@@ -354,6 +354,22 @@ ul.links {
     background-color: #2095c0;
 
 }
+/*footer*/
+#home_bg {
+  background: url(../images/footer_bg.jpeg);
+}
+.footer_heading {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Open Sans', sans-serif;
+    color: #fff !important;
+    font-size: 85px;
+    line-height: 70px;
+    text-align: center;
+}
+
 /*teaser-text*/
     .teaser{width:100%;padding:0;margin:0;background-attachment:fixed;background-repeat:no-repeat; border-top:5px solid rgba(0,0,0,0.2);border-bottom:5px solid rgba(0,0,0,0.2);color:#fff;}
     .teaser.fixed{}
