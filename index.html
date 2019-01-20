@@ -121,9 +121,21 @@
 			</div>
 			<!-- <div style="text-align: center;color:#fff;padding-bottom: 5%;" id="caption"><h4 class="sub_quote">Sign up on our web platform <a style="color:#FFD700;" href="https://app.preseed.in/" target="_blank">Preseed App</a> to have us help you with your idea. (Coming soon)</h4></div> -->
 			<div style="text-align: center;color:#fff;padding-bottom: 5%;" id="caption"><h4 class="sub_quote">we ADVICE & CONNECT entrepreneurs with the right set of people vis-à-vis <a href="https://yoga.preseed.in/" target="_blank" style="color:#FFD700;"> Preseed Yoga</a> - <a href="https://yoga.preseed.in/" target="_blank"> <img id="image_yoga" src="assets/images/preseed_yoga.png" alt="ecell_logo" width="50" height="100"></a></h4></div>
-		<div class="header_heading_div">
+		<!-- <div class="header_heading_div">
             <h3 class="header_we_are" align="center"><a id="cover_weare" style="color:#FFD700;" href="#footer_home"> <b>WE</b> <span>ARE</span></a> </h3>
-          </div>
+          </div> -->
+          <center>
+          	<div class="header_heading_div">
+          		<div class="dripping_container">
+          			<a class="cover_weare" style="color:#FFD700;" href="#footer_home">
+          				<div class="chevron"></div>
+          				<div class="chevron"></div>
+          				<div class="chevron"></div>
+          			</a>
+          		</div>
+          		<h3 class="header_we_are" align="center"><a class="cover_weare" style="color:#FFD700;" href="#footer_home"> <b>WE</b> <span>ARE</span></a></h3>
+          	</div> 
+          </center>
       </div>
     </div>
   </header>
@@ -360,7 +372,7 @@
 		ga('send', 'pageview');
 		$( document ).ready(function() {
 		// Smooth scrolling
-		$("#cover_weare").click(function(e) {
+		$(".cover_weare").click(function(e) {
 		    e.preventDefault();
 		    var section = $(this).attr("href");
 		    $("html, body").animate({
