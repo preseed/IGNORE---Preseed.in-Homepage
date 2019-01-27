@@ -159,6 +159,16 @@ ul.links {
   padding-left: 10px;
   padding-right: 10px;
 }
+.yoga_quote {
+  color:#fff;
+  text-shadow: 1px 1px 1px #2B2B2B;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 180%;
+  font-size: 1.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 /*Navigation*/
 .navbar-custom {
   margin-bottom: 0;
@@ -307,7 +317,11 @@ ul.links {
     }
     .sheep-text {
       font-size: 14px !important;
-      top: 70px !important;
+      top: 50px !important;
+    }
+    .sheep-text-bottom {
+      font-size: 14px !important;
+      top: 100px !important;
     }
     .span6{
       text-align: center !important;
@@ -335,11 +349,16 @@ ul.links {
 .sheep-text {
     font-size: 26px;
     position: absolute; 
-    top: 200px; 
+    top: 50px; 
     left: 0; 
     width: 100%; 
 }
-
+.sheep-text-bottom {
+    position: absolute; 
+    top: 250px; 
+    left: 0; 
+    width: 100%; 
+}
 .marketing-img {
 
     display: block;
@@ -368,6 +387,7 @@ ul.links {
     font-size: 85px;
     line-height: 70px;
     text-align: center;
+    margin-top: 0px;
 }
 .header_we_are {
     padding: 10px;
@@ -377,6 +397,11 @@ ul.links {
     line-height: 70px;
     text-align: center;
 }
+
+#body_section {
+  background-color: #000 !important;
+}
+
 /* Dripping arrow */
 
 
