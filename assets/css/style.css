@@ -442,20 +442,10 @@ ul.links {
     transform: translateY(55px) scale3d(0.5, 0.5, 0.5);
   }
 }
-
-.dripping_text {
-  /*display: block;
-  margin-top: 75px;
-  margin-left: -30px;
-  font-family: "Helvetica Neue", "Helvetica", Arial, sans-serif;
-  font-size: 12px;
-  color: #fff;
-  text-transform: uppercase;
-  white-space: nowrap;
-  opacity: .25;
-  animation: pulse 2s linear alternate infinite;
-*/}
-
+/*.fa-facebook-official {
+  color: #3b5998;
+}
+*/
 @keyframes pulse {
   to {
     opacity: 1;
