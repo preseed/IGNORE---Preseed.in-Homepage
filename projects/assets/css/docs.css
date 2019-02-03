@@ -106,6 +106,9 @@ only screen and (     -o-min-device-pixel-ratio: 2/1) {
   font-size: 20px;
   color: #777;
 }
-
-
-
+.product_heading {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #000;
+  font-weight: bold;
+  font-size: 3.1em;
+}

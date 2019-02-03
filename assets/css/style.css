@@ -291,7 +291,9 @@ ul.links {
 .color_text {
   color: #fff;
 }
-
+.black_color_text {
+  color: #000;
+}
 /*Startup c0ver image*/
 .sheep_cover {
     display: table;
@@ -396,6 +398,10 @@ ul.links {
     font-size: 24px;
     line-height: 70px;
     text-align: center;
+}
+
+#white_section {
+ background-color: #fff !important; 
 }
 
 #body_section {
