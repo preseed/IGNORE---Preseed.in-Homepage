@@ -159,6 +159,16 @@ ul.links {
   padding-left: 10px;
   padding-right: 10px;
 }
+.sub_quote-2 {
+  color:#fff;
+  text-shadow: 2px 2px 2px #2B2B2B;
+  font-style: italic;
+  letter-spacing: 2px;
+  line-height: 180%;
+  font-size: 2.5em;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .yoga_quote {
   color:#fff;
   text-shadow: 1px 1px 1px #2B2B2B;
