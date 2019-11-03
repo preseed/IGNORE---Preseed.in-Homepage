@@ -167,7 +167,7 @@ ul.links {
   line-height: 180%;
   font-size: 1.9em;
   padding-left: 10px;
-  padding-right: 10px;
+  /* padding-right: 10px; */
 }
 .yoga_quote {
   color:#fff;
@@ -648,6 +648,12 @@ ul.links {
 	
 	
 	
+	strong.saffron {
+    color: #000;
+    background: #FF9933;
+    padding: 0 3px;
+}
+
 	strong.white {
     color: #000;
     background: #fff;
@@ -656,7 +662,7 @@ ul.links {
 
 strong.green {
     color: #000;
-    background: #aadb14;
+    background: #138808;
     padding: 0 3px;
 }
 
