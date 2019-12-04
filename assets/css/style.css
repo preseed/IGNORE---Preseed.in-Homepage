@@ -31,6 +31,72 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 }
+/*Startup c0ver image*/
+.sheep_cover_hippies {
+    /*display: table;*/
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(../img/hippies.jpg) no-repeat;
+    background-color: #000;
+    background-attachment: fixed;
+    background-position: bottom center;
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+@media only screen and (max-device-width: 768px) {
+    .sheep_cover_hippies {
+        background-attachment: scroll;
+    }
+    .sheep-text_hippies {
+      font-size: 14px !important;
+      top: 50px !important;
+    }
+    .sheep-text-bottom_hippies {
+      font-size: 24px !important;
+      top: 100px !important;
+    }
+    .span6{
+      text-align: center !important;
+      padding-left: 10px;
+      padding-right: 10px;
+
+    }
+     #image_ecell{
+
+    height: 50px;
+    width: 100px;
+}
+}
+@media(min-width:768px) {
+    .sheep_cover_hippies {
+        height: 100%;
+        padding-top: 24%;
+        padding-bottom: 24%;
+    }
+    .span6 {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+}
+.sheep-text_hippies {
+    font-size: 26px;
+    position: absolute; 
+    top: 50px; 
+    left: 0; 
+    width: 100%; 
+}
+.sheep-text-bottom_hippies {
+    position: absolute; 
+    top: 250px; 
+    left: 0; 
+    width: 100%; 
+}
 @media (max-width: 1200px) {
 /*    figcaption{
         text-align:justify!important;
@@ -717,70 +783,4 @@ strong.green {
     color: #000;
     background: #138808;
     padding: 0 3px;
-}
-/*Startup c0ver image*/
-.sheep_cover_hippies {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/hippies.jpg) no-repeat;
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-@media only screen and (max-device-width: 768px) {
-    .sheep_cover_hippies {
-        background-attachment: scroll;
-    }
-    .sheep-text_hippies {
-      font-size: 14px !important;
-      top: 50px !important;
-    }
-    .sheep-text-bottom_hippies {
-      font-size: 24px !important;
-      top: 100px !important;
-    }
-    .span6{
-      text-align: center !important;
-      padding-left: 10px;
-      padding-right: 10px;
-
-    }
-     #image_ecell{
-
-    height: 50px;
-    width: 100px;
-}
-}
-@media(min-width:768px) {
-    .sheep_cover_hippies {
-        height: 100%;
-        padding-top: 24%;
-        padding-bottom: 24%;
-    }
-    .span6 {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-}
-.sheep-text_hippies {
-    font-size: 26px;
-    position: absolute; 
-    top: 50px; 
-    left: 0; 
-    width: 100%; 
-}
-.sheep-text-bottom_hippies {
-    position: absolute; 
-    top: 250px; 
-    left: 0; 
-    width: 100%; 
 }
