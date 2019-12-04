@@ -31,7 +31,26 @@
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-
+@media (max-width: 1200px) {
+/*    figcaption{
+        text-align:justify!important;
+    }
+  p {
+    text-align:justify!important;
+}
+blockquote
+{
+	 text-align:justify;
+}*/
+.textaligncentre
+{
+    text-align: justify!important;
+}
+}
+.textaligncentre
+{
+    text-align: center;
+}
 
 .intro_mobile_view {
   width: 100%;
@@ -208,6 +227,7 @@ ul.links {
   letter-spacing: 2px;
   line-height: 180%;
   /*font-size: 1.5em;*/
+  text-align: center;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -663,7 +683,7 @@ ul.links {
     	color: #ffffff;
     }
 	a:hover{color:#ff005a;}
-	p{margin-bottom:30px;}
+	/*p{margin-bottom:30px;}*/
 
 	/*section title*/
 	h1{font-size:40px;line-height:40px;}
