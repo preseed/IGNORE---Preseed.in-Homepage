@@ -20,7 +20,7 @@
     color-stop(7000, #23252b)
   );
   /*background-color: #000;*/
-  background: url(../images/1.png) no-repeat;
+  background: url(../img/hippies.jpg) no-repeat;
   background-attachment: fixed;
   position: relative;
   background-position: center;
@@ -154,8 +154,7 @@ blockquote
 }
 
 #second_body {
-    color:#000;
-/*  background-image: -ms-linear-gradient(top, #353c44 0%, #23252b 7000%);
+  background-image: -ms-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -moz-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -o-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -webkit-gradient(
@@ -166,8 +165,8 @@ blockquote
     color-stop(7000, #23252b)
   );
   background-image: -webkit-linear-gradient(top, #353c44 0%, #23252b 7000%);
-  background-image: linear-gradient(to bottom, #353c44 0%, #23252b 7000%);*/
-}
+  background-image: linear-gradient(to bottom, #353c44 0%, #23252b 7000%);
+X}
 
 html {
   width: 100%;
@@ -175,7 +174,11 @@ html {
 }
 .logo img {
   display: block;
-  margin: 8vh auto;
+  /*margin: 8vh auto;*/
+  margin-top: 8vh;
+    margin-right: auto;
+    margin-bottom: 2vh;
+    margin-left: auto;
 }
 blockquote {
   border-left: 0;
@@ -186,7 +189,7 @@ blockquote.quote {
   max-width: 80vw;
 }
 blockquote.headline {
-  /*color: #ffffff;*/
+  color: #ffffff;
   display: block;
   margin: 0 auto;
   padding-top: 20px;
@@ -419,7 +422,7 @@ ul.links {
   position: absolute;
 }
 .color_text {
-  color: #000;
+  color: #fff;
 }
 .black_color_text {
   color: #000;
