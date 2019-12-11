@@ -53,6 +53,15 @@
     .sheep_cover_hippies {
         background-attachment: scroll;
     }
+    .fund_cover {
+        background-attachment: scroll;
+    }
+    .math_cover {
+        background-attachment: scroll;
+    }
+    .girls_cover {
+        background-attachment: scroll;
+    }
     .sheep-text_hippies {
       font-size: 14px !important;
       top: 50px !important;
@@ -497,6 +506,15 @@ ul.links {
     .sheep_cover {
         background-attachment: scroll;
     }
+      .fund_cover {
+        background-attachment: scroll;
+    }
+    .math_cover {
+        background-attachment: scroll;
+    }
+    .girls_cover {
+        background-attachment: scroll;
+    }
     .sheep-text {
       font-size: 14px !important;
       top: 50px !important;
@@ -519,6 +537,21 @@ ul.links {
 }
 @media(min-width:768px) {
     .sheep_cover {
+        height: 100%;
+        padding-top: 24%;
+        padding-bottom: 24%;
+    }
+      .fund_cover {
+         height: 100%;
+        padding-top: 24%;
+        padding-bottom: 24%;
+    }
+    .math_cover {
+         height: 100%;
+        padding-top: 24%;
+        padding-bottom: 24%;
+    }
+    .girls_cover {
         height: 100%;
         padding-top: 24%;
         padding-bottom: 24%;
