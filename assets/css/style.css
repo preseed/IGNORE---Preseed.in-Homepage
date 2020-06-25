@@ -26,145 +26,17 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: 60%;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
 }
-/*Startup c0ver image*/
-.sheep_cover_hippies {
-    /*display: table;*/
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/hippies.jpg) no-repeat;
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-@media only screen and (max-device-width: 768px) {
-    .sheep_cover_hippies {
-        background-attachment: scroll;
-    }
-    .fund_cover {
-        background-attachment: scroll;
-    }
-    .math_cover {
-        background-attachment: scroll;
-    }
-    .girls_cover {
-        background-attachment: scroll;
-    }
-    .sheep-text_hippies {
-      font-size: 14px !important;
-      top: 50px !important;
-    }
-    .sheep-text-bottom_hippies {
-      font-size: 24px !important;
-      top: 100px !important;
-    }
-    .span6{
-      text-align: center !important;
-      padding-left: 10px;
-      padding-right: 10px;
-
-    }
-     #image_ecell{
-
-    height: 50px;
-    width: 100px;
-}
-}
-@media(min-width:768px) {
-    .sheep_cover_hippies {
-        height: 100%;
-        padding-top: 24%;
-        padding-bottom: 24%;
-    }
-    .span6 {
-      padding-left: 10px;
-      padding-right: 10px;
-    }
-}
-.sheep-text_hippies {
-    font-size: 26px;
-    position: absolute; 
-    top: 50px; 
-    left: 0; 
-    width: 100%; 
-}
-.sheep-text-bottom_hippies {
-    position: absolute; 
-    top: 250px; 
-    left: 0; 
-    width: 100%; 
-}
-@media (max-width: 1200px) {
-/*    figcaption{
-        text-align:justify!important;
-    }
-  p {
-    text-align:justify!important;
-}
-blockquote
-{
-	 text-align:justify;
-}*/
-.textaligncentre
-{
-    text-align: justify!important;
-}
-}
-.textaligncentre
-{
-    text-align: center;
-}
-
-.intro_mobile_view {
-  width: 100%;
-  height: 100%;
-  font-family: "Roboto", sans-serif;
-  font-weight: 300;
-  letter-spacing: 1px;
-  /*color: #fff;*/
-  background-image: -webkit-gradient(
-    linear,
-    left top,
-    left bottom,
-    color-stop(0, #353c44),
-    color-stop(7000, #23252b)
-  );
-  /*background-color: #000;*/
-  background: url(../img/dummy_slider.png) no-repeat;
-  background-attachment: fixed;
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: 100%;
-  -webkit-background-size: 100%;
-  -moz-background-size: 100%;
-  -o-background-size: 100%;
-}
-
 @media only screen and (max-device-width: 768px) {
     .intro {
         background-attachment: scroll;
     }
-/*    .intro_mobile_view {
-        background-attachment: scroll;
-    }*/
 }
-
 #second_body {
-    color:#000;
-/*  background-image: -ms-linear-gradient(top, #353c44 0%, #23252b 7000%);
+  background-image: -ms-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -moz-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -o-linear-gradient(top, #353c44 0%, #23252b 7000%);
   background-image: -webkit-gradient(
@@ -175,8 +47,8 @@ blockquote
     color-stop(7000, #23252b)
   );
   background-image: -webkit-linear-gradient(top, #353c44 0%, #23252b 7000%);
-  background-image: linear-gradient(to bottom, #353c44 0%, #23252b 7000%);*/
-}
+  background-image: linear-gradient(to bottom, #353c44 0%, #23252b 7000%);
+X}
 
 html {
   width: 100%;
@@ -186,6 +58,7 @@ html {
   display: block;
   margin: 8vh auto;
 }
+/* -----------------------------------------
 blockquote {
   border-left: 0;
   font-weight: lighter;
@@ -195,7 +68,7 @@ blockquote.quote {
   max-width: 80vw;
 }
 blockquote.headline {
-  /*color: #ffffff;*/
+  color: #ffffff;
   display: block;
   margin: 0 auto;
   padding-top: 20px;
@@ -203,8 +76,40 @@ blockquote.headline {
   letter-spacing: 1px;
   line-height: 180%;
 }
+------------------------------------ */
+/** Custom CSS **/
+.quote_headline {
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+    font-family: "Marck Script", cursive;
+    letter-spacing: 1px;
+    line-height: 180%;
+}
+
+blockquote {
+    border-left: 0;
+    font-weight: lighter;
+}
+
+blockquote {
+    padding: 10px 20px;
+    font-size: 17.5px;
+    
+}
+
+blockquote {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 40px;
+    margin-inline-end: 40px;
+}
+
+
+-------------------------------------------------------
 .headline_extra {
-  font-size: 16px !important;
+  font-size: 20px !important;
   font-family: "Poppins", sans-serif !important;
 }
 .soundcloud {
@@ -302,8 +207,7 @@ ul.links {
   text-shadow: 1px 1px 1px #2B2B2B;
   letter-spacing: 2px;
   line-height: 180%;
-  /*font-size: 1.5em;*/
-  text-align: center;
+  font-size: 1.5em;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -428,7 +332,7 @@ ul.links {
   position: absolute;
 }
 .color_text {
-  color: #000;
+  color: #fff;
 }
 .black_color_text {
   color: #000;
@@ -451,68 +355,8 @@ ul.links {
     background-size: cover;
     -o-background-size: cover;
 }
-.girls_cover {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/hippies.jpg) no-repeat;
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.math_cover {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/math_preseed.png) no-repeat;
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
-.fund_cover {
-    display: table;
-    width: 100%;
-    height: auto;
-    padding: 100px 0;
-    text-align: center;
-    color: #fff;
-    background: url(../img/simplefund.jpg) no-repeat;
-    background-color: #000;
-    background-attachment: fixed;
-    background-position: bottom center;
-    -webkit-background-size: cover;
-    background-repeat: no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
-}
 @media only screen and (max-device-width: 768px) {
     .sheep_cover {
-        background-attachment: scroll;
-    }
-      .fund_cover {
-        background-attachment: scroll;
-    }
-    .math_cover {
-        background-attachment: scroll;
-    }
-    .girls_cover {
         background-attachment: scroll;
     }
     .sheep-text {
@@ -541,28 +385,13 @@ ul.links {
         padding-top: 24%;
         padding-bottom: 24%;
     }
-      .fund_cover {
-         height: 100%;
-        padding-top: 24%;
-        padding-bottom: 24%;
-    }
-    .math_cover {
-         height: 100%;
-        padding-top: 24%;
-        padding-bottom: 24%;
-    }
-    .girls_cover {
-        height: 100%;
-        padding-top: 24%;
-        padding-bottom: 24%;
-    }
     .span6 {
       padding-left: 10px;
       padding-right: 10px;
     }
 }
 .sheep-text {
-    font-size: 18px;
+    font-size: 26px;
     position: absolute; 
     top: 50px; 
     left: 0; 
@@ -809,8 +638,7 @@ ul.links {
  
 		
 		
-		
-/*--------------------------------------------------------
+	/*--------------------------------------------------------
 	iv.--TYPOGRAPHY & LINKS
 --------------------------------------------------------*/
 
@@ -834,20 +662,20 @@ ul.links {
     	color: #ffffff;
     }
 	a:hover{color:#ff005a;}
-	/*p{margin-bottom:30px;}*/
+	p{margin-bottom:30px;}
 
 	/*section title*/
 	h1{font-size:40px;line-height:40px;}
 	h2{font-size:38px;line-height:38px;}
 	h3{font-size:35px;line-height:35px;}
-	/*h4{font-size:32px;line-height:42px;}*/
+	h4{font-size:32px;line-height:42px;}
 	h5{font-size:28px;line-height:28px;}
 	h6{font-size:24px;line-height:24px;}
 	.section-title h3,.section-title h6{margin:0;}
 	.section-title h3{font-size:85px;line-height:70px; text-align:center;}
 	.section-title h6{font-size:30px;line-height:35px; text-align:center;line-height: 50px;}
 	.teaser h4{font-size:50px;line-height:40px; text-align:center;line-height: 38px;}
-	.teaser h6{font-size:23px;line-height:35px; text-align:center;}
+	.teaser h6{font-size:27px;line-height:35px; text-align:center;}
 	
 	
 	
@@ -868,4 +696,4 @@ strong.green {
     color: #000;
     background: #138808;
     padding: 0 3px;
-}
+}	
